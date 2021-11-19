@@ -24,7 +24,7 @@
   .formPopup .btn1 {
     display: none;
     margin: auto;
-    transform: translate(0px, -20px);
+    transform: translate(150px, -20px);
     position: absolute;
     border-style: none;
     border-radius: 6px;
