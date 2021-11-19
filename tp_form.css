@@ -8,20 +8,7 @@
     margin: auto;
     z-index: 5;
   }
-  .formPopup {
-    display: none;
-    padding: 17px;
-    position: absolute;
-    transform: translate(150px, -402px);
-    background-color: #fff;
-    border-radius: 0px;
-    z-index: 9;
-    width: 350px;
-    height: 402px;
-    overflow: auto;
-    opacity: .95;
-  }
-  .formPopup .btn1 {
+  .loginPopup .btn1 {
     display: none;
     margin: auto;
     transform: translate(150px, -20px);
@@ -38,9 +25,22 @@
     opacity: .7;
     z-index: 11;
   }
-  .formPopup .btn1:hover,
+  .loginPopup .btn1:hover,
   .openButton:hover {
     opacity: 1;
+  }
+  .formPopup {
+    display: none;
+    padding: 17px;
+    position: absolute;
+    transform: translate(150px, -402px);
+    background-color: #fff;
+    border-radius: 0px;
+    z-index: 9;
+    width: 350px;
+    height: 402px;
+    overflow: auto;
+    opacity: .95;
   }
   .formContainer {
     width: 100%;
