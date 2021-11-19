@@ -11,11 +11,11 @@
   .iframeformPopup {
     display: none;
     position: absolute;
-    transform: translate(150px, -402px);
+    transform: translate(0px, -402px);
     border-radius: 0px;
     border: none;
     z-index: 9;
-    width: 350px;
+    width: 500px;
     height: 402px;
     overflow: auto;
     opacity: .95;
@@ -23,7 +23,7 @@
   .iframePopup .btn {
     display: none;
     margin: auto;
-    transform: translate(150px, -20px);
+    transform: translate(0px, -20px);
     position: absolute;
     border-style: none;
     border-radius: 6px;
