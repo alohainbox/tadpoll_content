@@ -20,6 +20,7 @@
     font-family:Roboto; 
     font-size:12px; 
     text-align: center;
+    color: #3d3d3d;
     height: 20px;
     width: 50px;
     opacity: .7;
@@ -27,6 +28,29 @@
     animation: slide-in-btn 0.5s forwards;
   }
   .loginPopup .btn1:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+  .loginPopup .btn1_dark {
+    display: none;
+    margin: auto;
+    transform: translate(-50px, -20px);
+    position: absolute;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:Roboto; 
+    font-size:12px; 
+    text-align: center;
+    color: #d8dde6;
+    height: 20px;
+    width: 50px;
+    opacity: .7;
+    z-index: 11;
+    animation: slide-in-btn 0.5s forwards;
+  }
+  .loginPopup .btn1_dark:hover,
   .openButton:hover {
     opacity: 1;
   }
@@ -39,6 +63,7 @@
     border-style: none;
     border-radius: 6px;
     cursor: pointer;
+    color: #3d3d3d;
     font-family:Roboto; 
     font-size:12px; 
     text-align: center;
@@ -49,6 +74,29 @@
     animation: slide-in-btn-fs 0.5s forwards;
   }
   .loginPopup .btn_fs:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+  .loginPopup .btn_fs_dark {
+    display: none;
+    margin: auto;
+    transform: translate(-50px, -20px);
+    position: absolute;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #d8dde6;
+    font-family:Roboto; 
+    font-size:12px; 
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    opacity: .7;
+    z-index: 11;
+    animation: slide-in-btn-fs 0.5s forwards;
+  }
+  .loginPopup .btn_fs_dark:hover,
   .openButton:hover {
     opacity: 1;
   }
@@ -72,6 +120,34 @@
     position: absolute;
     transform: translate(-500px, -402px);
     background-color: #fff;
+    border-radius: 0px;
+    z-index: 9;
+    width: 500px;
+    height: 402px;
+    overflow: auto;
+    opacity: .95;
+    animation: slide-in-fs 0.5s forwards;
+  }
+  .formPopup_dark {
+    display: none;
+    padding: 17px;
+    position: absolute;
+    transform: translate(-500px, -402px);
+    background-image: radial-gradient(gray 5%, black 95%);
+    border-radius: 0px;
+    z-index: 9;
+    width: 500px;
+    height: 402px;
+    overflow: auto;
+    opacity: .95;
+    animation: slide-in-fs 0.5s forwards;
+  }
+  .formPopup_fs_dark {
+    display: none;
+    padding: 17px;
+    position: absolute;
+    transform: translate(-500px, -402px);
+    background-image: radial-gradient(gray 5%, black 95%);
     border-radius: 0px;
     z-index: 9;
     width: 500px;
@@ -128,10 +204,19 @@
   .formContainer .footer {
      text-align:right;
      font-style:Roboto; 
-     font-size:10px; 
+     font-size:10px;
+     color: #3d3d3d; 
      display:block; 
      position:relative;
   }
+  .formContainer .footer_dark {
+    text-align:right;
+    font-style:Roboto; 
+    font-size:10px;
+    color: #d8dde6; 
+    display:block; 
+    position:relative;
+ }
   @keyframes slide-in {
     100% { transform: translate(150px, -402px); }
   }
