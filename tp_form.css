@@ -140,7 +140,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
-    animation: slide-in-fs 0.5s forwards;
+    animation: slide-in 0.5s forwards;
   }
   .formPopup_fs_dark {
     display: none;
