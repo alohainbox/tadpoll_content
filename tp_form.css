@@ -132,11 +132,11 @@
     display: none;
     padding: 17px;
     position: absolute;
-    transform: translate(-500px, -402px);
+    transform: translate(-350px, -402px);
     background-image: radial-gradient(gray 5%, black 95%);
     border-radius: 0px;
     z-index: 9;
-    width: 500px;
+    width: 350px;
     height: 402px;
     overflow: auto;
     opacity: .95;
@@ -248,6 +248,9 @@
       .loginPopup .btn1{
         animation: slide-in-btn-mob 0.5s forwards;
       }
+      .loginPopup .btn1_dark{
+        animation: slide-in-btn-mob 0.5s forwards;
+      }
       .formPopup{
         height: 282px;
         width: 350px;
@@ -255,6 +258,18 @@
         animation: slide-in-mob 0.5s forwards;       
       }
       .formPopup_fs{
+        height: 282px;
+        width: 350px;
+        transform: translate(-350px, -284px);
+        animation: slide-in-fs-mob 0.5s forwards;       
+      }
+      .formPopup_dark{
+        height: 282px;
+        width: 350px;
+        transform: translate(-350px, -284px);
+        animation: slide-in-mob 0.5s forwards;       
+      }
+      .formPopup_fs_dark{
         height: 282px;
         width: 350px;
         transform: translate(-350px, -284px);
