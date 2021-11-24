@@ -172,7 +172,7 @@
       .formPopup_fs{
         height: 282px;
         width: 350px;
-        transform: translate(0px, -284px);
+        transform: translate(-350px, -284px);
         animation: slide-in-fs-mob 0.5s forwards;       
       }
   }
