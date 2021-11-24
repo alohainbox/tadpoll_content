@@ -11,7 +11,7 @@
   .iframeformPopup {
     display: none;
     position: absolute;
-    transform: translate(150px, -402px);
+    transform: translate(-350px, -402px);
     border-radius: 0px;
     border: none;
     z-index: 9;
@@ -19,12 +19,12 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
-    animation: slide-in 0.5s forwards;
+    animation: slide-in 0.8s forwards;
   }
   .iframeformPopup_fs {
     display: none;
     position: absolute;
-    transform: translate(0px, -402px);
+    transform: translate(-500px, -402px);
     border-radius: 0px;
     border: none;
     z-index: 9;
@@ -32,7 +32,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
-    animation: slide-in 0.5s forwards;
+    animation: slide-in-fs 0.8s forwards;
   }
   .iframePopup .btn {
     display: none;
@@ -73,6 +73,12 @@
   .iframePopup .btn_fs:hover,
   .openButton:hover {
     opacity: 1;
+  }
+  @keyframes slide-in {
+    100% { transform: translate(150px, -402px); }
+  }
+  @keyframes slide-in-fs {
+    100% { transform: translate(0px, -20px); }
   }
   @media only screen and (max-device-width: 480px) {
       .iframePopup {
