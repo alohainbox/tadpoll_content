@@ -19,6 +19,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
+    animation: slide-in 0.5s forwards;
   }
   .iframeformPopup_fs {
     display: none;
@@ -31,6 +32,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
+    animation: slide-in 0.5s forwards;
   }
   .iframePopup .btn {
     display: none;
@@ -39,7 +41,6 @@
     position: absolute;
     border-style: none;
     border-radius: 6px;
-    background-color: #fff;
     cursor: pointer;
     text-align: center;
     font-family:Roboto; 
@@ -60,7 +61,6 @@
     position: absolute;
     border-style: none;
     border-radius: 6px;
-    background-color: #fff;
     cursor: pointer;
     text-align: center;
     font-family:Roboto; 

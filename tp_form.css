@@ -16,7 +16,6 @@
     border-style: none;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #fff;
     font-family:Roboto; 
     font-size:12px; 
     text-align: center;
@@ -37,7 +36,6 @@
     border-style: none;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #fff;
     font-family:Roboto; 
     font-size:12px; 
     text-align: center;
@@ -62,6 +60,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
+    animation: slide-in 0.5s forwards;
   }
   .formPopup_fs {
     display: none;
@@ -75,6 +74,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
+    animation: slide-in 0.5s forwards;
   }
   .formContainer {
     width: 100%;
