@@ -88,6 +88,18 @@
   @keyframes slide-in-btn-fs {
     100% { transform: translate(0px, -20px); }
   }
+  @keyframes slide-in-mob {
+    100% { transform: translate(0px, -282px); }
+  }
+  @keyframes slide-in-fs-mob {
+    100% { transform: translate(0px, -282px); }
+  }
+  @keyframes slide-in-btn-mob {
+    100% { transform: translate(0px, -20px); }
+  }
+  @keyframes slide-in-btn-fs-mob {
+    100% { transform: translate(0px, -20px); }
+  }
   @media only screen and (max-device-width: 480px) {
       .iframePopup {
         width: 350px;
@@ -95,17 +107,21 @@
       .iframeformPopup {
         height: 282px;
         width: 350px;
-        transform: translate(0px, -282px);
+        transform: translate(-350px, -282px);
+        animation: slide-in-mob 0.5s forwards;
       }
       .iframePopup .btn {
-        transform: translate(0px, -20px);
+        transform: translate(-50px, -20px);
+        animation: slide-in-btn-mob 0.5s forwards;
       }
       .iframeformPopup_fs {
         height: 282px;
         width: 350px;
-        transform: translate(0px, -282px);
+        transform: translate(-350px, -282px);
+        animation: slide-in-fs-mob 0.5s forwards;
       }
       .iframePopup .btn_fs {
-        transform: translate(0px, -20px);
+        transform: translate(-50px, -20px);
+        animation: slide-in-btn-fs-mob 0.5s forwards;
       }
   }

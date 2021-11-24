@@ -11,7 +11,7 @@
   .loginPopup .btn1 {
     display: none;
     margin: auto;
-    transform: translate(150px, -20px);
+    transform: translate(-50px, -20px);
     position: absolute;
     border-style: none;
     border-radius: 6px;
@@ -23,6 +23,7 @@
     width: 50px;
     opacity: .7;
     z-index: 11;
+    animation: slide-in-btn 0.5s forwards;
   }
   .loginPopup .btn1:hover,
   .openButton:hover {
@@ -31,7 +32,7 @@
   .loginPopup .btn_fs {
     display: none;
     margin: auto;
-    transform: translate(0px, -20px);
+    transform: translate(-50px, -20px);
     position: absolute;
     border-style: none;
     border-radius: 6px;
@@ -43,6 +44,7 @@
     width: 50px;
     opacity: .7;
     z-index: 11;
+    animation: slide-in-btn-fs 0.5s forwards;
   }
   .loginPopup .btn_fs:hover,
   .openButton:hover {
@@ -52,7 +54,7 @@
     display: none;
     padding: 17px;
     position: absolute;
-    transform: translate(150px, -402px);
+    transform: translate(-350px, -402px);
     background-color: #fff;
     border-radius: 0px;
     z-index: 9;
@@ -66,7 +68,7 @@
     display: none;
     padding: 17px;
     position: absolute;
-    transform: translate(0px, -402px);
+    transform: translate(-500px, -402px);
     background-color: #fff;
     border-radius: 0px;
     z-index: 9;
@@ -74,7 +76,7 @@
     height: 402px;
     overflow: auto;
     opacity: .95;
-    animation: slide-in 0.5s forwards;
+    animation: slide-in-fs 0.5s forwards;
   }
   .formContainer {
     width: 100%;
@@ -128,18 +130,47 @@
      display:block; 
      position:relative;
   }
+  @keyframes slide-in {
+    100% { transform: translate(150px, -402px); }
+  }
+  @keyframes slide-in-fs {
+    100% { transform: translate(0px, -402px); }
+  }
+  @keyframes slide-in-btn {
+    100% { transform: translate(150px, -20px); }
+  }
+  @keyframes slide-in-btn-fs {
+    100% { transform: translate(0px, -20px); }
+  }
+  @keyframes slide-in-mob {
+    100% { transform: translate(0px, -284px); }
+  }
+  @keyframes slide-in-fs-mob {
+    100% { transform: translate(0px, -284px); }
+  }
+  @keyframes slide-in-btn-mob {
+    100% { transform: translate(0px, -20px); }
+  }
+  @keyframes slide-in-btn-fs-mob {
+    100% { transform: translate(0px, -20px); }
+  }
   @media only screen and (max-device-width: 480px) {
       .loginPopup{ 
         width: 350px 
       }
+      .loginPopup .btn1{
+        animation: slide-in-btn-mob 0.5s forwards;
+      }
       .formPopup{
         height: 282px;
         width: 350px;
-        transform: translate(0px, -284px);       
+        transform: translate(-350px, -284px);
+        animation: slide-in-mob 0.5s forwards;       
       }
       .formPopup_fs{
         height: 282px;
         width: 350px;
-        transform: translate(0px, -284px);       
+        transform: translate(0px, -284px);
+        animation: slide-in-fs-mob 0.5s forwards;       
       }
   }
