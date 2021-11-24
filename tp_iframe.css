@@ -39,6 +39,7 @@
     margin: auto;
     transform: translate(-50px, -20px);
     position: absolute;
+    background-color: transparent;
     border-style: none;
     border-radius: 6px;
     cursor: pointer;
@@ -62,6 +63,7 @@
     position: absolute;
     border-style: none;
     border-radius: 6px;
+    background-color: transparent;
     cursor: pointer;
     text-align: center;
     font-family:Roboto; 
