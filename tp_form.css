@@ -203,7 +203,7 @@
   }
   .formContainer .footer {
      text-align:right;
-     font-style:Roboto; 
+     font-family:Roboto; 
      font-size:10px;
      color: #3d3d3d; 
      display:block; 
@@ -211,7 +211,7 @@
   }
   .formContainer .footer_dark {
     text-align:right;
-    font-style:Roboto; 
+    font-family:Roboto; 
     font-size:10px;
     color: #d8dde6; 
     display:block; 
