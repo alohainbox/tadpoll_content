@@ -60,18 +60,19 @@
   .iframePopup .btn_close {
     display: none;
     margin: auto;
-    transform: translate(-50px, -75px);
+    transform: translate(-100px, -20px);
     position: absolute;
     background-color: #FFF278;
     border-style: none;
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    font-family:Roboto; 
-    font-size:12px; 
-    height: 20px;
+    font-family: Roboto; 
+    font-size: 8em;
+    font-style: medium; 
+    height: fit-content;
     width: fit-content;
-    padding: 0px 20px;
+    padding: 5px 10px;
     filter: drop shadow(Y4, blur 4, 25% black);
     opacity: .7;
     z-index: 11;
