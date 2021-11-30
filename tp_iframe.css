@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'robotomedium';
+  src: url('Roboto-Medium-webfont.eot');
+  src: url('Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Medium-webfont.woff2') format('woff2'),
+       url('Roboto-Medium-webfont.woff') format('woff'),
+       url('Roboto-Medium-webfont.ttf') format('truetype'),
+       url('Roboto-Medium-webfont.svg#robotomedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoregular';
+  src: url('Roboto-Regular-webfont.eot');
+  src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Regular-webfont.woff2') format('woff2'),
+       url('Roboto-Regular-webfont.woff') format('woff'),
+       url('Roboto-Regular-webfont.ttf') format('truetype'),
+       url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
     box-sizing: border-box;
   }
@@ -44,7 +68,7 @@
     border-radius: 6px;
     cursor: pointer;
     text-align: center;
-    font-family:Roboto; 
+    font-family:robotoregular; 
     font-size:12px; 
     height: 20px;
     width: fit-content;
@@ -60,23 +84,22 @@
   .iframePopup .btn_close {
     display: none;
     margin: auto;
-    transform: translate(-100px, -20px);
+    transform: translate(-0px, -100px);
     position: absolute;
     background-color: #FFF278;
     border-style: none;
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    font-family: Roboto; 
-    font-size: 16px;
-    font-style: medium; 
+    font-family: robotomedium; 
+    font-size: 18px;
+    font-weight:bolder; 
     height: fit-content;
     width: fit-content;
     padding: 5px 10px;
-    filter: drop shadow(Y4, blur 4, 25% black);
+    filter: drop-shadow(0 4px 4px rgb(63,63,63));
     opacity: .7;
     z-index: 11;
-    animation: slide-in-btn 0.5s forwards;
   }
   .iframePopup .btn_close:hover,
   .openButton:hover {
@@ -92,7 +115,7 @@
     background-color: transparent;
     cursor: pointer;
     text-align: center;
-    font-family:Roboto; 
+    font-family:robotoregular; 
     font-size:12px; 
     height: 20px;
     width: fit-content;
