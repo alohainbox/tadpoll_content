@@ -47,7 +47,8 @@
     font-family:Roboto; 
     font-size:12px; 
     height: 20px;
-    width: 50px;
+    width: fit-content;
+    padding: 0px 10px;
     opacity: .7;
     z-index: 11;
     animation: slide-in-btn 0.5s forwards;
@@ -69,7 +70,8 @@
     font-family:Roboto; 
     font-size:12px; 
     height: 20px;
-    width: 50px;
+    width: fit-content;
+    padding: 0px 10px;
     opacity: .7;
     z-index: 11;
     animation: slide-in-btn-fs 0.5s forwards;
