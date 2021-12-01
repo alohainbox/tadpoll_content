@@ -60,7 +60,7 @@
   .iframePopup .btn_close {
     display: none;
     margin: auto;
-    transform: translate(2px, -90px);
+    transform: translate(-100px, -90px);
     position: absolute;
     background-color: #FFF278;
     border-style: none;
@@ -76,6 +76,7 @@
     filter: drop-shadow(0 4px 4px rgb(63,63,63));
     opacity: .8;
     z-index: 11;
+    animation: slide-in-btn-close 0.5s forwards;
   }
   .iframePopup .btn_close:hover,
   .openButton:hover {
@@ -115,6 +116,9 @@
   }
   @keyframes slide-in-btn-fs {
     100% { transform: translate(0px, -20px); }
+  }
+  @keyframes slide-in-btn-close {
+    100% { transform: translate(2px, -90px); }
   }
   @keyframes slide-in-mob {
     100% { transform: translate(0px, -282px); }
