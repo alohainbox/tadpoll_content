@@ -76,6 +76,7 @@
     filter: drop-shadow(0 4px 4px rgb(63,63,63));
     opacity: .8;
     z-index: 11;
+    overflow: hidden;
     animation: slide-in-btn-close 0.5s forwards;
   }
   .iframePopup .btn_close:hover,
